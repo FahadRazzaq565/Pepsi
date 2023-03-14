@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+}
+.logo img{
+    width: 6%;
+    border: 3px solid red;
+    border-radius:50px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    align-items: center;
+}
+.nav li {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    display: block;
+}
+.nav > li > a:hover {
+    cursor: pointer;
+    background-color: #620606;
+    color: #000;
+  } 
+/* .nav li a:hover{
+    color: rgb(235, 85, 85);
+    text-decoration: none;
+    cursor: pointer;
+      background-color: #555;
+} */
